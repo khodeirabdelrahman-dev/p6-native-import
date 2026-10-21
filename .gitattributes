@@ -1,0 +1,6 @@
+# Normalise text to LF so the tool behaves the same on every platform.
+* text=auto eol=lf
+
+# The XER skeleton is a P6 artefact, not text: its bytes must survive checkout
+# untouched. Marking it binary disables line-ending conversion entirely.
+*.xer -text
