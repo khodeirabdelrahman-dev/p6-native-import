@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Generated artefacts — never commit these
+*.log
+out/
+dist/
+build/
+*.xer
+!assets/skeleton.xer
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
